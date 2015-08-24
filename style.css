@@ -11,6 +11,7 @@
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
+  font-weight: 200;
   margin: auto 0;
   width: 100%;
   display: block;
@@ -87,8 +88,17 @@ header nav ul li a {
 section {
   float: left;
   width: 100%;
-  height: 750px;
-  margin-left: auto;
+  height: 820px;
+}
+
+section ul {
+  padding-left: 30px;
+  padding-top: 5px;
+  line-height: 1.4;
+}
+
+section li {
+  list-style: circle;
 }
 
 a {
@@ -105,6 +115,7 @@ a {
 .col-1 {
   float: left;
   width: 60%;
+  /*border-right: 1px solid #e5ebec;*/
 }
 
 .col-2 {
@@ -115,7 +126,6 @@ a {
 .col-align-1 {
   padding-top: 30px;
   padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 10px;
 }
 
@@ -335,7 +345,28 @@ main {
   padding-top: 2px;
 }
 
+/* ===========
+   Resume CSS
+   =========== */
 
+.box-7 {
+  height: 120px;
+  border-bottom: 1px solid #e5ebec;
+}
+
+.box-8 {
+  height: 150px;
+  border-bottom: 1px solid #e5ebec;
+}
+
+.box-9 {
+  height: 60px;
+}
+
+.resume {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 /* ===========
    Mobile CSS
    =========== */
@@ -359,7 +390,6 @@ main {
   }
 
   header nav ul {
-    float: none;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
@@ -367,13 +397,14 @@ main {
 
   header nav ul li {
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
   }
 
-  nav h1 {
-    padding-left: 20px;
-    padding-top: 20px;
+  nav h1 a {
+    text-align: center;
+  }
+
+  section {
+    width: 100%;
   }
 
   .col-1 {
@@ -391,8 +422,9 @@ main {
 
   .main-image {
     width: 100%;
+    height: 25%;
     float: left;
-    padding: 5px;
+    padding-left: 0px;
   }
 
   /* ===========
@@ -493,12 +525,16 @@ main {
     padding-top: 25px;
   }
 
-
+  .box-8 {
+    height: 175px;
+    border-bottom: 1px solid #e5ebec;
+  }
 
   footer {
     width: 100%;
     background-color: #c2f2df;
     height: 200px;
+    display: block;
   }
 
   footer a {
