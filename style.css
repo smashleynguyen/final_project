@@ -212,9 +212,9 @@ p link {
 
 .box-4 {
   width: 400px;
-  height: 200px;
   padding-top: 30px;
   padding-left: 100px;
+  padding-bottom: 10px;
 }
 
 .twitter {
@@ -385,6 +385,16 @@ main {
 .box-8 {
   height: 175px;
   border-bottom: 1px solid #e5ebec;
+}
+
+.box-8 a {
+  color: #214656;
+  font-weight: 400;
+}
+
+section a {
+  color: #214656;
+  font-weight: 400;
 }
 
 .box-9 {
