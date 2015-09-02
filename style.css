@@ -460,7 +460,11 @@ main h4 {
 
 main a {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-weight: 300;
+=======
+  font-weight: 400;
+>>>>>>> master
 =======
   font-weight: 400;
 >>>>>>> master
@@ -567,7 +571,7 @@ main a {
 
   .box-1 {
     width: 100%;
-    height: 200px;
+    height: 210px;
     border-bottom: 1px solid #e5ebec;
   }
 
@@ -580,7 +584,7 @@ main a {
 
   .box-3 {
     width: 100%;
-    height: 250px;
+    height: 270px;
     border-bottom: 1px solid #e5ebec;
     padding-top: 10px;
   }
