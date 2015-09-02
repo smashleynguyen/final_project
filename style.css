@@ -177,6 +177,11 @@ p link {
   float:right;
 }
 
+button a {
+  text-decoration: none;
+  color: black;
+}
+
 .portfolio {
   float: none;
   font-size: 20px;
