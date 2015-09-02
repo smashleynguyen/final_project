@@ -459,7 +459,11 @@ main h4 {
 }
 
 main a {
+<<<<<<< HEAD
   font-weight: 300;
+=======
+  font-weight: 400;
+>>>>>>> master
   color: #214656;
 }
 
