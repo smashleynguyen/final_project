@@ -195,7 +195,7 @@ button a {
 
 .box-1 {
   width: 400px;
-  height: 200px;
+  height: 150px;
   border-bottom: 1px solid #e5ebec;
 }
 
@@ -395,7 +395,7 @@ main {
 }
 
 .box-8 {
-  height: 175px;
+  height: 280px;
   border-bottom: 1px solid #e5ebec;
 }
 
@@ -571,7 +571,7 @@ main a {
 
   .box-1 {
     width: 100%;
-    height: 240px;
+    height: 190px;
     border-bottom: 1px solid #e5ebec;
   }
 
@@ -646,6 +646,15 @@ main a {
     padding-bottom: 15px;
   }
 
+    /* ===========
+     Resume Mobile CSS
+     =========== */
+
+    .box-8 {
+    height: 320px;
+    border-bottom: 1px solid #e5ebec;
+  }
+
   /* ===========
      Portfolio Mobile CSS
      =========== */
@@ -716,11 +725,6 @@ main a {
 
   .extra-space {
     padding-top: 25px;
-  }
-
-  .box-8 {
-    height: 220px;
-    border-bottom: 1px solid #e5ebec;
   }
 
   .about-this {
