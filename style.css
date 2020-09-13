@@ -397,7 +397,8 @@ main {
    =========== */
 
 .box-7 {
-  height: 120px;
+  height: 130px;
+  padding-top: 5px;
   border-bottom: 1px solid #e5ebec;
 }
 
