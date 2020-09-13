@@ -677,7 +677,7 @@ main a {
   }
 
   .col-align-2 {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 20px;
     padding-bottom: 10px;
   }
@@ -776,7 +776,7 @@ main a {
   footer ul li {
     display: inline-block;
     padding: 5px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 
