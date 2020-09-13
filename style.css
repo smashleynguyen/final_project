@@ -859,8 +859,7 @@ main a {
   .col-1 {
     float: none;
     width: 100%;
-    padding-bottom: 60px;
-    border-bottom: 1px solid #e5ebec;
+    padding-bottom: 10px;
   }
 
   .col-2 {
